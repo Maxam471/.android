@@ -8,3 +8,7 @@ const getUser = async () => {
 };
 
 getUser();
+
+document.addEventListener("click", (event) => {
+  event.preventDefault();
+});
